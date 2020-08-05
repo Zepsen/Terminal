@@ -21,8 +21,11 @@
         "defaults": {
             // Put settings here that you want to apply to all profiles.
             "fontSize": 12,
+            "cursorColor": "#000000",
+            "cursorShape": "bar",
             "useAcrylic": true,
-            "acrylicOpacity": 0.6,
+            "acrylicOpacity": 0.5,
+            "suppressApplicationTitle": true,
         },
         "list": [
             {
@@ -33,36 +36,34 @@
                 "hidden": false,
                 "colorScheme": "AtomOneLight",
                 "tabTitle": "PowerShell"
-                //For vscode
-                //"startingDirectory": "%__CD__%"
             },
             {
                 "guid": "{a274b934-af81-4b19-afca-77c9de57e152}",
                 "closeOnExit": true,
                 "colorScheme": "Novel",
                 "commandline": "\"%PROGRAMFILES%\\git\\usr\\bin\\bash.exe\" -i -l",
-                "cursorColor": "#FFFFFF",
-                "cursorShape": "bar",
                 "historySize": 9001,
                 "icon": "%PROGRAMFILES%\\Git\\mingw64\\share\\git\\git-for-windows.ico",
                 "name": "Bash",
                 "tabTitle": "Bash",
                 "padding": "0, 0, 0, 0",
                 "snapOnInput": true,
-                "startingDirectory": "%USERPROFILE%",
+                "startingDirectory": "%USERPROFILE%"                
             },
             {
                 // Make changes here to the cmd.exe profile.
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "name": "Command Prompt",
+                "tabTitle": "cmd",
                 "commandline": "cmd.exe",
                 "hidden": false,
-                "colorScheme": "Builtin Solarized Light"
+                "colorScheme": "AtomOneLight"
             },
             {
                 "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
                 "hidden": false,
                 "name": "Azure Cloud Shell",
+                "tabTitle": "Azure Cloud Shell",
                 "source": "Windows.Terminal.Azure"
             }
         ]
@@ -111,27 +112,6 @@
             "red": "#D8473F",
             "white": "#EAEAEA",
             "yellow": "#D7BA7D"
-        },
-        {
-            "name": "Builtin Solarized Light",
-            "black": "#073642",
-            "red": "#dc322f",
-            "green": "#859900",
-            "yellow": "#b58900",
-            "blue": "#268bd2",
-            "purple": "#d33682",
-            "cyan": "#2aa198",
-            "white": "#eee8d5",
-            "brightBlack": "#002b36",
-            "brightRed": "#cb4b16",
-            "brightGreen": "#586e75",
-            "brightYellow": "#657b83",
-            "brightBlue": "#839496",
-            "brightPurple": "#6c71c4",
-            "brightCyan": "#93a1a1",
-            "brightWhite": "#fdf6e3",
-            "background": "#fdf6e3",
-            "foreground": "#657b83"
         },
         {
             "name": "Novel",
