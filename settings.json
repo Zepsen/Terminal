@@ -31,8 +31,10 @@
                 "name": "Windows PowerShell",
                 "commandline": "powershell.exe",
                 "hidden": false,
-                "colorScheme": "Pandora",
+                "colorScheme": "AtomOneLight",
                 "tabTitle": "PowerShell"
+                //For vscode
+                //"startingDirectory": "%__CD__%"
             },
             {
                 "guid": "{a274b934-af81-4b19-afca-77c9de57e152}",
@@ -41,7 +43,6 @@
                 "commandline": "\"%PROGRAMFILES%\\git\\usr\\bin\\bash.exe\" -i -l",
                 "cursorColor": "#FFFFFF",
                 "cursorShape": "bar",
-                "fontFace": "Consolas",
                 "historySize": 9001,
                 "icon": "%PROGRAMFILES%\\Git\\mingw64\\share\\git\\git-for-windows.ico",
                 "name": "Bash",
@@ -70,25 +71,25 @@
     // To learn more about color schemes, visit https://aka.ms/terminal-color-schemes
     "schemes": [
         {
-            "name": "Dracula",
-            "background": "#272935",
-            "black": "#21222C",
-            "blue": "#BD93F9",
-            "cyan": "#8BE9FD",
-            "foreground": "#F8F8F2",
-            "green": "#50FA7B",
-            "purple": "#FF79C6",
-            "red": "#FF5555",
-            "white": "#F8F8F2",
-            "yellow": "#FFB86C",
-            "brightBlack": "#6272A4",
-            "brightBlue": "#D6ACFF",
-            "brightCyan": "#A4FFFF",
-            "brightGreen": "#69FF94",
-            "brightPurple": "#FF92DF",
-            "brightRed": "#FF6E6E",
-            "brightWhite": "#F8F8F2",
-            "brightYellow": "#FFFFA5"
+            "name": "AtomOneLight",
+            "black": "#000000",
+            "red": "#de3e35",
+            "green": "#3f953a",
+            "yellow": "#dbb15d",
+            "blue": "#2f5af3",
+            "purple": "#950095",
+            "cyan": "#3f953a",
+            "white": "#bbbbbb",
+            "brightBlack": "#000000",
+            "brightRed": "#de3e35",
+            "brightGreen": "#3f953a",
+            "brightYellow": "#32b119",
+            "brightBlue": "#2f5af3",
+            "brightPurple": "#a00095",
+            "brightCyan": "#3f953a",
+            "brightWhite": "#ffffff",
+            "background": "#f9f9f9",
+            "foreground": "#2a2c33"
         },
         {
             "name": "vscode",
