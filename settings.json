@@ -6,13 +6,14 @@
 // For documentation on these settings, see: https://aka.ms/terminal-documentation
 {
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+    "defaultProfile": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
     // You can add more global application settings here.
     // To learn more about global settings, visit https://aka.ms/terminal-global-settings
     // If enabled, selections are automatically copied to your clipboard.
     "copyOnSelect": false,
     // If enabled, formatted data is also copied to your clipboard
     "copyFormatting": false,
+    "launchMode": "maximize",
     // A profile specifies a command to execute paired with information about how it should look and feel.
     // Each one of them will appear in the 'New Tab' dropdown,
     //   and can be invoked from the commandline with `wt.exe -p xxx`
@@ -26,7 +27,7 @@
             "useAcrylic": true,
             "acrylicOpacity": 0.5,
             "suppressApplicationTitle": true,
-            "fontFace": "Hack"
+            "fontFace": "Hack",
         },
         "list": [
             {
@@ -36,7 +37,8 @@
                 "commandline": "powershell.exe",
                 "hidden": false,
                 "colorScheme": "AtomOneLight",
-                "tabTitle": "PowerShell"
+                "tabTitle": "PowerShell",
+                "tabColor": "#3366ff"
             },
             {
                 "guid": "{a274b934-af81-4b19-afca-77c9de57e152}",
@@ -49,7 +51,8 @@
                 "tabTitle": "Bash",
                 "padding": "0, 0, 0, 0",
                 "snapOnInput": true,
-                "startingDirectory": "%USERPROFILE%"                
+                "startingDirectory": "%USERPROFILE%",
+                "tabColor": "#006633"
             },
             {
                 // Make changes here to the cmd.exe profile.
@@ -71,6 +74,7 @@
                 "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
                 "hidden": false,
                 "name": "Ubuntu-20.04",
+                "colorScheme": "Novel",
                 "source": "Windows.Terminal.Wsl"
             }
         ]
